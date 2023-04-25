@@ -9,6 +9,7 @@ class InstancePresenter
     :site_extended_description,
     :site_terms,
     :site_transactions,
+    :site_support,
     :closed_registrations_message,
     to: Setting
   )

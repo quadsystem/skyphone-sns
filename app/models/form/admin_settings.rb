@@ -35,6 +35,7 @@ class Form::AdminSettings
     noindex
     require_invite_text
     site_transactions
+    site_support
   ).freeze
 
   BOOLEAN_KEYS = %i(
@@ -70,6 +71,7 @@ class Form::AdminSettings
   validates :show_domain_blocks, inclusion: { in: %w(disabled users all) }
   validates :show_domain_blocks_rationale, inclusion: { in: %w(disabled users all) }
   validates :site_transactions, html: true
+  validates :site_support, html: true
 
   def initialize(_attributes = {})
     super

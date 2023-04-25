@@ -714,6 +714,9 @@ ja:
       site_transactions:
         desc_html: 特定商取引法の表示に関する内容を記述できます。HTMLタグが使えます
         title: 特定商取引法の表示
+      site_support:
+        desc_html: サイト概要の表示に関する内容を記述できます。HTMLタグが使えます
+        title: サイト概要の本文
       site_title: サーバーの名前
       thumbnail:
         desc_html: OpenGraphとAPIによるプレビューに使用されます。サイズは1200×630px推奨です
@@ -1482,6 +1485,8 @@ ja:
     pinned: 固定された投稿
     reblogged: さんがブースト
     sensitive_content: 閲覧注意
+  support:
+    title: サポート
   tags:
     does_not_match_previous_name: 以前の名前と一致しません
   terms:
